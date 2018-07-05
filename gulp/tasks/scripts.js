@@ -8,6 +8,10 @@ module.exports = function() {
         // svg4everybody
         'node_modules/svg4everybody/dist/svg4everybody.min.js',
 
+        // dynamicHeight
+        // example: dynamicHeight($('.you_class'));
+        'dev/libs/dynamicHeight/dynamicHeight.js',
+        
         //magnific-popup
         //http://dimsemenov.com/plugins/magnific-popup/
         // 'dev/libs/magnific-popup/dist/jquery.magnific-popup.js',
