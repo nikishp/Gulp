@@ -7,6 +7,8 @@ $(function () {
 
   var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   
+  //dynamicHeight($('.you_class'));
+  
   var $form = $('.form');
 
   $form.on('click', function (event) {
