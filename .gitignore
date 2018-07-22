@@ -7,3 +7,5 @@ build
 .idea
 
 .gulp
+
+package-lock.json
