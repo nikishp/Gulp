@@ -22,7 +22,7 @@ module.exports = function() {
         // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 
         //NiceScroll
-        //https://nicescroll.areaaperta.com/
+        //https://github.com/inuyaksa/jquery.nicescroll
         //'node_modules/nicescroll/dist/jquery.nicescroll.js',
         
         /*flatpickr */
