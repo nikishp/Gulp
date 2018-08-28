@@ -21,6 +21,10 @@ module.exports = function() {
         // https://fancyapps.com/fancybox/3/
         // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 
+        //NiceScroll
+        //https://nicescroll.areaaperta.com/
+        //'node_modules/nicescroll/dist/jquery.nicescroll.js',
+        
         /*flatpickr */
         //https://flatpickr.js.org/
         //'node_modules/flatpickr/dist/flatpickr.min.js',
