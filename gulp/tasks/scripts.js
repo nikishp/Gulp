@@ -21,6 +21,10 @@ module.exports = function() {
         // https://fancyapps.com/fancybox/3/
         // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 
+        //ion.rangeslider
+        // http://ionden.com/a/plugins/ion.rangeslider/
+        // 'node_modules/ion-rangeslider/js/ion.rangeSlider.min.js',
+
         //NiceScroll
         //https://github.com/inuyaksa/jquery.nicescroll
         //'node_modules/nicescroll/dist/jquery.nicescroll.js',
@@ -30,7 +34,6 @@ module.exports = function() {
         //'node_modules/flatpickr/dist/flatpickr.min.js',
         //'node_modules/flatpickr/dist/l10n/ru.js',
         /*flatpickr end*/
-        
         
         //zoom
         //'dev/libs/zoom-master/jquery.zoom.js',
@@ -48,7 +51,7 @@ module.exports = function() {
         //slick-carousel
         //http://kenwheeler.github.io/slick/
         // 'dev/libs/slick-carousel/slick/slick.js',
-        'node_modules/slick-carousel/slick/slick.js',
+        // 'node_modules/slick-carousel/slick/slick.js',
 
         //Swiper
         //http://idangero.us/swiper/
@@ -75,7 +78,7 @@ module.exports = function() {
 
         //jQueryFormStyler
         //http://dimox.name/jquery-form-styler/
-        //'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+        'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
 
         //jQuery-One-Page-Nav-master
         //https://github.com/davist11/jQuery-One-Page-Nav
@@ -113,7 +116,6 @@ module.exports = function() {
         */
 
         //'dev/libs/insta_photo/inst.js',
-
 
         //object fit polyfill
         //https://github.com/bfred-it/object-fit-images
