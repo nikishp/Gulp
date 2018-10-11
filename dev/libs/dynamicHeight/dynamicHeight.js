@@ -1,8 +1,8 @@
 $.fn.equalizeHeights = function() {
   var maxHeight = this.map(function( i, e ) {
-    return $( e ).height();
+    return $( e ).outerHeight();
   }).get();
-  return this.height( Math.max.apply( this, maxHeight ) );
+  return this.outerHeight( Math.max.apply( this, maxHeight ) );
 };
 
 
