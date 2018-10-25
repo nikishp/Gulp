@@ -1,6 +1,8 @@
 module.exports = function() {
   $.gulp.task('pug:dev', ()=>  {
     return $.gulp.src('dev/pug/pages/*.pug')
+      .pipe($.changed('build', {extension: '.html'}))
+      .pipe($.jadeInheritance({basedir: 'dev/pug/pages'}))
       .pipe($.gp.pug({
       locals : {
         nav: JSON.parse($.fs.readFileSync('data/navigation.json', 'utf8')),
@@ -15,10 +17,10 @@ module.exports = function() {
       };
     }))
       .pipe($.gulp.dest('build/'))
-//      .on('end', $.browserSync.reload);
+    //      .on('end', $.browserSync.reload);
       .pipe($.browserSync.reload({
-        stream: true
-      }))
+      stream: true
+    }))
   });
 
   $.gulp.task('pug:build', ()=>  {
