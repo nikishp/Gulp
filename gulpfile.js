@@ -1,14 +1,16 @@
 global.$ = {
   path: {
-    task:      require('./gulp/paths/tasks.js')
+    task:          require('./gulp/paths/tasks.js')
   },
-  gulp:        require('gulp'),
-  del:         require('del'),
-  fs:          require('fs'),
-  browserSync: require('browser-sync').create(),
-  gp:          require('gulp-load-plugins')(),
-  colors:      require('colors'),
-  gcmq:        require('gulp-group-css-media-queries')
+  gulp:            require('gulp'),
+  del:             require('del'),
+  fs:              require('fs'),
+  browserSync:     require('browser-sync').create(),
+  gp:              require('gulp-load-plugins')(),
+  colors:          require('colors'),
+  gcmq:            require('gulp-group-css-media-queries'),
+  changed:         require('gulp-changed'),
+  jadeInheritance: require('gulp-jade-inheritance')
 };
 
 
