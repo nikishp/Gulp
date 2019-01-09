@@ -1,5 +1,5 @@
 module.exports = function() {
-    var jsLibsPath = [
+ var jsLibsPath = [
         // jqurye 3...
         //'node_modules/jquery/dist/jquery.js', 
         //jquery 2.2.4
@@ -10,16 +10,16 @@ module.exports = function() {
 
         // dynamicHeight
         // example: dynamicHeight($('.you_class'));
-        'dev/libs/dynamicHeight/dynamicHeight.js',
-        
+        // 'dev/libs/dynamicHeight/dynamicHeight.js',
+
         //magnific-popup
         //http://dimsemenov.com/plugins/magnific-popup/
         // 'dev/libs/magnific-popup/dist/jquery.magnific-popup.js',
-        'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
+        // 'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
 
         //fancybox 3
         // https://fancyapps.com/fancybox/3/
-        // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 
         //ion.rangeslider
         // http://ionden.com/a/plugins/ion.rangeslider/
@@ -28,13 +28,13 @@ module.exports = function() {
         //NiceScroll
         //https://github.com/inuyaksa/jquery.nicescroll
         //'node_modules/nicescroll/dist/jquery.nicescroll.js',
-        
+
         /*flatpickr */
         //https://flatpickr.js.org/
         //'node_modules/flatpickr/dist/flatpickr.min.js',
         //'node_modules/flatpickr/dist/l10n/ru.js',
         /*flatpickr end*/
-        
+
         //zoom
         //'dev/libs/zoom-master/jquery.zoom.js',
 
@@ -51,12 +51,12 @@ module.exports = function() {
         //slick-carousel
         //http://kenwheeler.github.io/slick/
         // 'dev/libs/slick-carousel/slick/slick.js',
-        // 'node_modules/slick-carousel/slick/slick.js',
+        'node_modules/slick-carousel/slick/slick.js',
 
         //Swiper
         //http://idangero.us/swiper/
         //'node_modules/swiper/dist/js/swiper.js',
-        
+
         //bxSlider
         //'dev/libs/jquery.bxslider/jquery.bxslider.min.js',
 
@@ -78,7 +78,7 @@ module.exports = function() {
 
         //jQueryFormStyler
         //http://dimox.name/jquery-form-styler/
-        'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+        // 'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
 
         //jQuery-One-Page-Nav-master
         //https://github.com/davist11/jQuery-One-Page-Nav
