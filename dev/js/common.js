@@ -90,10 +90,21 @@ $(function() {
     // $(".phone").mask("+9(999)999-99-99");
 
     //animate pege element
-    //	 if (screen.width > 768) {
-    //	   $(".mission h2").animated("bounceIn");
-    //		 $(".mission h2").css('animation-delay', '0.5s').animated("bounceInLeft");
-    //	 };
+    // функция выбирает селектор, вешает ему анимационный класс, задает начальную задержку, задает добавочное время на каждую итерацию
+    // function animateItem(selector, animateClass, animateStartPoint, animateIncrement) {
+    //   var animCount = animateStartPoint;
+    //   $(selector).each(function(index, el) {
+    //     $(el).css('animation-delay', animCount + 's').animated(animateClass);
+    //     animCount = animCount + animateIncrement;
+    //   });
+    // };
+
+    // if (screen.width > 768) {
+    //     // $(".you_class").animated("bounceIn");
+    //     // $(".you_class").css('animation-delay', '0.5s').animated("bounceInLeft");
+    //     animateItem(".you_class", "bounceInLeft", 0, 0);
+    //     animateItem(".you_class", "fadeInLeft", 0, 0.2);
+    // };
 
     //form styler
     // $('input, select').styler();
