@@ -53,6 +53,10 @@ module.exports = function() {
         // 'dev/libs/slick-carousel/slick/slick.js',
         'node_modules/slick-carousel/slick/slick.js',
 
+        //isotope-layout
+        //https://isotope.metafizzy.co/
+        //'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
+  
         //Swiper
         //http://idangero.us/swiper/
         //'node_modules/swiper/dist/js/swiper.js',
