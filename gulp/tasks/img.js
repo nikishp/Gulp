@@ -4,10 +4,11 @@ module.exports = function() {
   // var imgPath = 'dev/img/**/*'; //default
   // var imgPath = ['dev/img/**/*','!dev/img/ico/**/*']; // work but still empty folder
   // var imgPath = ['dev/img/**/*', '!dev/img/{ico,ico/**}', '!dev/img/{svg,svg/**}', '!dev/img/favicon/favicon.ico']; // works as it well
-  var imgPath = ['dev/img/**', '!dev/img/{ico,ico/**}']; // works as it well
+  var imgPathDev = ['dev/img/**', '!dev/img/{ico,ico/**}']; // works as it well
+  var imgPathBuild = ['dev/img/**', '!dev/img/{ico,ico/**}', '!dev/img/pixelGlass/**']; // works as it well
 
   $.gulp.task('img:dev', () => {
-    return $.gulp.src(imgPath)
+    return $.gulp.src(imgPathDev)
     .on('error', $.gp.notify.onError(function (error) {
       return {
         title: 'img',
@@ -18,7 +19,7 @@ module.exports = function() {
   });
 
   $.gulp.task('img:build', () => {
-    return $.gulp.src(imgPath)
+    return $.gulp.src(imgPathBuild)
     .pipe($.gp.image())
     .pipe($.gulp.dest('build/img/'));
   });
