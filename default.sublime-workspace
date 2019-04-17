@@ -165,7 +165,7 @@
 			{
 				"buffer_size": 99,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -174,7 +174,7 @@
 			{
 				"buffer_size": 156,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -182,7 +182,7 @@
 			"settings":
 			{
 				"buffer_size": 304,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -191,7 +191,7 @@
 			{
 				"buffer_size": 22254,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -199,7 +199,7 @@
 			"settings":
 			{
 				"buffer_size": 131,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -208,7 +208,7 @@
 			{
 				"buffer_size": 3800,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			{
 				"buffer_size": 3912,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -225,7 +225,7 @@
 			"settings":
 			{
 				"buffer_size": 97,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -233,7 +233,7 @@
 			"settings":
 			{
 				"buffer_size": 27,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 			{
 				"buffer_size": 1257,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -260,7 +260,7 @@
 			{
 				"buffer_size": 344,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 			"settings":
 			{
 				"buffer_size": 210,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			{
 				"buffer_size": 230,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -285,7 +285,7 @@
 			"settings":
 			{
 				"buffer_size": 916,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -294,7 +294,7 @@
 			{
 				"buffer_size": 7211,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -303,7 +303,7 @@
 			{
 				"buffer_size": 308,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -330,7 +330,7 @@
 			{
 				"buffer_size": 2803,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -338,7 +338,7 @@
 			"settings":
 			{
 				"buffer_size": 65,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			{
 				"buffer_size": 2222,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -355,7 +355,7 @@
 			"settings":
 			{
 				"buffer_size": 682,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -363,7 +363,7 @@
 			"settings":
 			{
 				"buffer_size": 18,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -371,7 +371,7 @@
 			"settings":
 			{
 				"buffer_size": 105,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -380,7 +380,7 @@
 			{
 				"buffer_size": 1083,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -389,7 +389,7 @@
 			{
 				"buffer_size": 14377,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -398,7 +398,7 @@
 			{
 				"buffer_size": 1821,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -1308,11 +1308,11 @@
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
+								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
 								"last_updated": 1522882974.78
 							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -3607,11 +3607,11 @@
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
+								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
 								"last_updated": 1522882974.78
 							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -3805,11 +3805,11 @@
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
+								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
 								"last_updated": 1528489994.13
 							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -4002,11 +4002,11 @@
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
+								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
 								"last_updated": 1522882974.78
 							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
