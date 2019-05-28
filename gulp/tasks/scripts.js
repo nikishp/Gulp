@@ -1,7 +1,7 @@
 module.exports = function() {
  var jsLibsPath = [
         // jqurye 3...
-        //'node_modules/jquery/dist/jquery.js', 
+        //'node_modules/jquery/dist/jquery.js',
         //jquery 2.2.4
         'dev/libs/jquery/jquery-2.2.4.min.js',
 
@@ -56,7 +56,7 @@ module.exports = function() {
         //isotope-layout
         //https://isotope.metafizzy.co/
         //'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
-  
+
         //Swiper
         //http://idangero.us/swiper/
         //'node_modules/swiper/dist/js/swiper.js',
@@ -112,6 +112,10 @@ module.exports = function() {
         //instagram photo
 
         /* how to use
+        // нужно выключить adblock с ним не работает это первое, второе user_id это не CLIENT ID в инстаграмме.
+        // user_id берем из access_token ! это первое число до точки.
+        // example - "access_token":'3575285859.634b752.c1sb0d492662441784fee433762d8889',
+        // сдесь user_id = 3575285859
         $(".inst_block").instagramGet({
           "user_id": "user_id",
           "access_token": "access_token",
@@ -125,7 +129,7 @@ module.exports = function() {
         //https://github.com/bfred-it/object-fit-images
 
         /* how to use
-        in common.js add 
+        in common.js add
           objectFitImages();
         in style use sass mixin:
           +object-fit(contain)

@@ -2,9 +2,9 @@
 
 //only font mixin
 //https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
-@import "scss_mixin/mixins.scss" 
+@import "scss_mixin/mixins.scss"
 @import "../../node_modules/object-fit-images/preprocessors/mixin.sass"
- 
+
 
 //mixin-source
 // =font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false )
@@ -39,7 +39,7 @@
   position: absolute
   top: 50%
   transform: translateY(-50%)
-  
+
 =position($position, $t: null, $r: null, $b: null, $l: null)
   position: $position
   top: $t
@@ -61,7 +61,7 @@
   @else
     height: $a+px
 //
- 
+
 //to use sprite mixin
 // +sprite($image_name)
 
@@ -75,6 +75,21 @@
 =lh($lineHeight,$fontSize)
   line-height: $lineHeight/$fontSize
 
+//+trs(color .25s linear, transform .25s linear)
+//=trs($args...)
+  transition: $args
+
+//usage: +trs([property],[duration],[easing]);
+=trs($property: all, $duration: .25s, $ease: linear)
+	transition: $property $duration $ease
+
+@mixin m480
+  @media only screen and (max-width: 480px)
+    @content
+
+//body
+  +m480
+    background: silver
 
 
 

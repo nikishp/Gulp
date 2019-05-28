@@ -13,7 +13,7 @@
 }
 
 // =============================================================================
-// Font Face 
+// Font Face
 // =============================================================================
 
 @mixin font-face($name, $path, $weight: null, $style: null, $asset-pipeline: false, $file-formats: eot otf woff2 woff ttf svg) {
@@ -64,7 +64,7 @@ top: 50%
 left: 100%;
 +triangle(right, 5px, 5px, #fff)
 */
-@mixin triangle($direction, $sizeH, $sizeV, $color){
+@mixin triangle($direction, $sizeV, $sizeH, $color) {
   content: '';
   display: block;
   width: 0;
@@ -105,4 +105,3 @@ left: 100%;
     border-color: $color transparent transparent transparent;
   }
 }
-
