@@ -8,6 +8,10 @@ module.exports = function() {
         // svg4everybody
         'node_modules/svg4everybody/dist/svg4everybody.min.js',
 
+        //jQuery.Lazy
+        //http://jquery.eisbehr.de/lazy/
+        'node_modules/jquery-lazy/jquery.lazy.js',
+
         // dynamicHeight
         // example: dynamicHeight($('.you_class'));
         // 'dev/libs/dynamicHeight/dynamicHeight.js',

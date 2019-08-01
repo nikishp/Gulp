@@ -83,21 +83,13 @@
 =trs($property: all, $duration: .25s, $ease: linear)
 	transition: $property $duration $ease
 
-@mixin m480
-  @media only screen and (max-width: 480px)
+=max($break)
+  @media only screen and (max-width: $break+px)
     @content
 
-//body
-  +m480
-    background: silver
-
-
-
-
-
-
-
-
+=min($break)
+  @media only screen and (min-width: $break+px)
+    @content
 
 
 

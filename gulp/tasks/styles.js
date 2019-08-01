@@ -7,22 +7,20 @@ module.exports = function () {
     .on('error', $.gp.notify.onError(function (error) {
       return {
         title: 'sass',
-        message: error.message 
+        message: error.message
       };
     }))
-//    .pipe($.gp.autoprefixer({
-//    browsers: ['last 6 version']
-//    }))
+//    .pipe($.gp.autoprefixer())
     .pipe($.gcmq())
-    //.pipe($.gp.cssnano()) 
+    //.pipe($.gp.cssnano())
     //.pipe($.gp.cleanCss())
     .pipe($.gp.csso({
       // forceMediaMerge: true
-    })) 
+    }))
     .on('error', $.gp.notify.onError(function (error) {
       return {
         title: 'sass',
-        message: error.message 
+        message: error.message
       };
     }))
     .pipe($.gp.sourcemaps.write())
@@ -35,17 +33,15 @@ module.exports = function () {
   $.gulp.task('sass:build', () => {
     return $.gulp.src('dev/sass/main.sass ')
     .pipe($.gp.sass())
-    .pipe($.gp.autoprefixer({
-      browsers: ['last 3 version']
-    }))
+    .pipe($.gp.autoprefixer())
     .pipe($.gcmq())
-    //.pipe($.gp.cssnano()) 
+    //.pipe($.gp.cssnano())
     //.pipe($.gp.cleanCss({
-    //format: 'beautify' 
+    //format: 'beautify'
     //}))
     .pipe($.gp.csso())
     .pipe($.gulp.dest('build/css/'))
-  }); 
+  });
 
   $.gulp.task('sassLibs:dev', () => {
     return $.gulp.src('dev/sass/libs.sass')
@@ -58,12 +54,10 @@ module.exports = function () {
       };
     }))
     .pipe($.gcmq())
-    //.pipe($.gp.autoprefixer({
-    //browsers: ['last 3 version']
-    //}))
-    //.pipe($.gp.cssnano()) 
+    //.pipe($.gp.autoprefixer())
+    //.pipe($.gp.cssnano())
     //.pipe($.gp.cleanCss())
-    .pipe($.gp.csso()) 
+    .pipe($.gp.csso())
     .pipe($.gp.sourcemaps.write())
     .pipe($.gulp.dest('build/css/'))
     .pipe($.browserSync.reload({
@@ -75,11 +69,9 @@ module.exports = function () {
   $.gulp.task('sassLibs:build', () => {
     return $.gulp.src('dev/sass/libs.sass ')
     .pipe($.gp.sass())
-    .pipe($.gp.autoprefixer({
-      browsers: ['last 3 version']
-    }))
+    .pipe($.gp.autoprefixer())
     .pipe($.gcmq())
-    //.pipe($.gp.cssnano()) 
+    //.pipe($.gp.cssnano())
     //.pipe($.gp.cleanCss())
     .pipe($.gp.csso())
     .pipe($.gulp.dest('build/css/'))

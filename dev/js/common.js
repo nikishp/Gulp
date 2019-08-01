@@ -9,6 +9,8 @@ $(function () {
 
   //dynamicHeight($('.you_class'));
 
+  $('.lazy').Lazy();
+
   $("[data-fancybox]").fancybox({
     touch: false
   });

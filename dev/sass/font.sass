@@ -3,13 +3,13 @@
 
 // Thin/Hairline     - 100
 // Extra/Ultra Light - 200
-// Light             - 300
-// Normal/book       - 400
+// Light/Book/Demi   - 300
+// Normal/Regular    - 400
 // Medium            - 500
 // Semi/Demi Bold    - 600
 // Bold              - 700
 // Extra/Ultra Bold  - 800
-// Black/Heavy       - 900
+// Black/Heavy/Fat   - 900
 
 //to use font mixin
 // +font-face('myFont', '../font/path/', 400, normal, $asset-pipeline: false, $file-formats: eot ttf svg woff woff2)
@@ -26,9 +26,14 @@
 //   src: url(../font/RobotoBold.ttf)
 //   src: url(../font/RobotoBold.wolf)
 
-// +font-face("Circe", "../font/Circe/Circe-Light", 300, $file-formats: eot woff woff2 ttf)
-// +font-face("Circe", "../font/Circe/Circe-Regular", 400, $file-formats: eot woff woff2 ttf)
-// +font-face("Circe", "../font/Circe/Circe-Bold", 700, $file-formats: eot woff woff2 ttf)
+// +font-face("Circe", "../font/Circe/Circe-Thin", 100, $file-formats: eot woff ttf)
+// +font-face("Circe", "../font/Circe/Circe-ExtraLight", 200, $file-formats: eot woff ttf)
+// +font-face("Circe", "../font/Circe/Circe-Light", 300, $file-formats: eot woff ttf)
+// +font-face("Circe", "../font/Circe/Circe-Regular", 400, $file-formats: eot woff ttf)
+// +font-face("Circe", "../font/Circe/Circe-Bold", 700, $file-formats: eot woff ttf)
+// +font-face("Circe", "../font/Circe/Circe-ExtraBold", 800, $file-formats: eot woff ttf)
+
+// +font-face("Circe Rounded", "../font/CirceRounded/CirceRounded", 400, $file-formats: eot woff woff2 ttf)
 
 //+font-face("Roboto Condensed", "../font/roboto-condensed/RobotoCondensed-Light", 300, $file-formats: eot woff ttf svg)
 //+font-face("Roboto Condensed", "../font/roboto-condensed/RobotoCondensed-Regular", 400, $file-formats: eot woff ttf svg)
@@ -50,12 +55,24 @@
 //+font-face("Exo 2.0", '../font/Exo_2/Exo2-Bold', 700, normal, $file-formats: eot woff woff2 ttf)
 //+font-face("Exo 2.0", '../font/Exo_2/Exo2-Black', 900, normal, $file-formats: eot woff woff2 ttf)
 
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-Light', 300, normal, $file-formats: eot woff woff2 ttf)
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-Regular', 400, normal, $file-formats: eot woff woff2 ttf)
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-Medium', 500, normal, $file-formats: eot woff woff2 ttf)
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-SemiBold', 500, normal, $file-formats: eot woff woff2 ttf)
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-Bold', 700, normal, $file-formats: eot woff woff2 ttf)
-//+font-face("Gilroy", '../font/Gilroy/Gilroy-ExtraBold', 800, normal, $file-formats: eot woff woff2 ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Thin', 100, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-ThinItalic', 100, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-UltraLight', 200, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-UltraLightItalic', 200, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Light', 300, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-LightItalic', 300, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Regular', 400, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-RegularItalic', 400, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Medium', 500, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-MediumItalic', 500, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-SemiBold', 500, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-SemiBoldItalic', 500, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Bold', 700, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-BoldItalic', 700, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-ExtraBold', 800, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-ExtraBoldItalic', 800, italic, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-Black', 900, normal, $file-formats: eot woff ttf)
+// +font-face("Gilroy", '../font/Gilroy/Gilroy-BlackItalic', 900, italic, $file-formats: eot woff ttf)
 
 // +font-face("Avenir Next Cyr - Heavy", '../font/AvenirNextCyr/AvenirNextCyr-Heavy', 900, normal, $file-formats: eot woff woff2 ttf)
 
@@ -291,10 +308,10 @@
 
 // Thin/Hairline     - 100
 // Extra/Ultra Light - 200
-// Light             - 300
-// Normal/book       - 400
+// Light/Book/Demi   - 300
+// Normal/Regular    - 400
 // Medium            - 500
 // Semi/Demi Bold    - 600
 // Bold              - 700
 // Extra/Ultra Bold  - 800
-// Black/Heavy       - 900
+// Black/Heavy/Fat   - 900
