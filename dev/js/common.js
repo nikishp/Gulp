@@ -8,11 +8,14 @@ $(function () {
   var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
   //dynamicHeight($('.you_class'));
-
-  $('.lazy').Lazy();
+  $('.lazy').Lazy({
+    delay: 2000
+  });
 
   $("[data-fancybox]").fancybox({
-    touch: false
+    touch: false,
+    backFocus: false,
+    autoFocus: false,
   });
 
   $('.hamburger').on('click', function (event) {
@@ -96,7 +99,7 @@ $(function () {
   // });
 
   //phone mask
-  // $(".phone").mask("+9(999)999-99-99");
+  // $('input[type="tel"]').mask("+9(999)999-99-99");
 
   //animate pege element
   // функция выбирает селектор, вешает ему анимационный класс, задает начальную задержку, задает добавочное время на каждую итерацию
@@ -133,7 +136,7 @@ $(function () {
   //    event.preventDefault();
   //    var id  = $(this).attr('href'),
   //    top = $(id).offset().top;
-  //    $('body,html').animate({scrollTop: top}, 600);
+  //    $('body,html').stop(true).animate({scrollTop: top}, 600);
   //  });
 
   $(window).resize(function () {

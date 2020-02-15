@@ -10,9 +10,12 @@ global.$ = {
   colors:          require('colors'),
   gcmq:            require('gulp-group-css-media-queries'),
   changed:         require('gulp-changed'),
-  jadeInheritance: require('gulp-jade-inheritance')
+  jadeInheritance: require('gulp-jade-inheritance'),
+  postcss:         require('gulp-postcss'),
+  sortCSSmq:       require('sort-css-media-queries'),
+  uglifyEs:        require('gulp-uglify-es').default,
+  mqpacker:        require('css-mqpacker')
 };
-
 
 
 //let filePaths = {

@@ -1,16 +1,15 @@
 include ../modules/include/include.pug
 
 doctype html
-html(lang="ru-RU") 
+html(lang="ru-RU")
   head
     block head
     +head()
   body.thank-page
-    .wrapper
-      //+header()
-      block content  
-      //+foot()
-
+    //+header()
+    block content
+    //+foot()
+    +hidden()
 
     +script()
     block script
@@ -23,21 +22,21 @@ html(lang="ru-RU")
         //-     var $this = $(this);
         //-     setTimeout(function() {
         //-       window.location = $this.attr('href');
-        //-     }, 2000); 
+        //-     }, 2000);
         //-   });
         //- });
-        
+
         //function to return main page
         var curId = localStorage.getItem('form');
         var currentPage = localStorage.getItem('currentPage');
 
-        // в этой функции любые файлы будут скачиваться 
+        // в этой функции любые файлы будут скачиваться
         //- if(curId == 'you_form_id'){
         //-   $(function() {
         //-     $('.dwnlink').each(function(){
         //-       var $this = $(this);
         //-       setTimeout(function() {
-        //-         $('.dwnlink')[0].click(); 
+        //-         $('.dwnlink')[0].click();
         //-       }, 500);
         //-     });
         //-   });
@@ -51,4 +50,3 @@ html(lang="ru-RU")
 
       // call auto download file
       // a(class="dwnlink", data-auto-download, href='file_path', download="file_name_when_download_start")
-

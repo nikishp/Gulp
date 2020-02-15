@@ -1,14 +1,14 @@
 include ../modules/include/include.pug
 
-doctype html 
-html(lang="ru-RU") 
-  head  
+doctype html
+html(lang="ru-RU")
+  head
     block head
     +head()
   body(class=""+bodyClass)
-    +header()
-    block content  
-    +foot() 
+    //- +header()
+    block content
+    +foot()
     +hidden()
-    +script() 
+    +script()
     block script
