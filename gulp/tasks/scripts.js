@@ -1,9 +1,9 @@
 module.exports = function () {
   var jsLibsPath = [
     // jqurye 3...
-    //'node_modules/jquery/dist/jquery.js',
+    'node_modules/jquery/dist/jquery.js',
     //jquery 2.2.4
-    'dev/libs/jquery/jquery-2.2.4.min.js',
+//    'dev/libs/jquery/jquery-2.2.4.min.js',
 
     // svg4everybody
     'node_modules/svg4everybody/dist/svg4everybody.min.js',

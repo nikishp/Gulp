@@ -22,7 +22,7 @@ module.exports = function () {
       .pipe($.gp.csso({
       // forceMediaMerge: true
     })) 
-//    
+    //    
       .pipe($.gp.sourcemaps.write())
       .pipe($.gulp.dest('build/css/'))
       .pipe($.browserSync.reload({
@@ -34,7 +34,12 @@ module.exports = function () {
     return $.gulp.src('dev/sass/main.sass ')
       .pipe($.gp.sass())
       .pipe($.gp.autoprefixer())
-      .pipe($.gcmq())
+      .pipe($.postcss([
+      $.mqpacker({
+        sort: $.sortCSSmq
+      })
+    ]))
+    //.pipe($.gcmq())
     //.pipe($.gp.cssnano()) 
     //.pipe($.gp.cleanCss({
     //format: 'beautify' 
@@ -53,7 +58,12 @@ module.exports = function () {
         message: error.message
       };
     }))
-      .pipe($.gcmq())
+      .pipe($.postcss([
+      $.mqpacker({
+        sort: $.sortCSSmq
+      })
+    ]))
+    //.pipe($.gcmq())
       .pipe($.gp.autoprefixer())
     //.pipe($.gp.cssnano()) 
     //.pipe($.gp.cleanCss())
@@ -70,7 +80,12 @@ module.exports = function () {
     return $.gulp.src('dev/sass/libs.sass ')
       .pipe($.gp.sass())
       .pipe($.gp.autoprefixer())
-      .pipe($.gcmq())
+    //.pipe($.gcmq())
+      .pipe($.postcss([
+      $.mqpacker({
+        sort: $.sortCSSmq
+      })
+    ]))
     //.pipe($.gp.cssnano()) 
     //.pipe($.gp.cleanCss())
       .pipe($.gp.csso())
