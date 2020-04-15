@@ -4,6 +4,8 @@ build
 
 .git
 
+.vscode
+
 .idea
 
 .gulp
