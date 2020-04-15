@@ -1,5 +1,3 @@
-//$(document).ready(function() {
-
 $(function () {
 
   svg4everybody();
@@ -18,8 +16,8 @@ $(function () {
     autoFocus: false,
   });
 
-  $('.hamburger').on('click', function (event) {
-    $(this).toggleClass('is-active');
+  $('.hamburger--js').on('click', function (event) {
+    $(this).toggleClass('open');
   });
 
   var $form = $('.form');
@@ -246,7 +244,7 @@ $(function () {
   });
   */
 
-//method 2 (default)
+  //method 2 (default)
   // var didScroll = false;
 
   // window.onscroll = doThisStuffOnScroll;
@@ -306,7 +304,8 @@ function pageWidget(pages) {
 pageWidget(['index', 'thanks'])
 
 
-//pixel-glass-js-master
+////pixel-glass-js-master
+//window.onload=function(){pixelGlass()};
 //function pixelGlass(){'use strict';var doc=document;var controlsPanel;var bodyContentWrapper;var panelClass='controls-panel';var canBeDisabled=[];var prefix='pg';var filtersList=['none','invert'];var statesList=['off','on'];var currents={state:getCurrent('state',statesList[1]),filter:getCurrent('filter',filtersList[0]),opacity:getCurrent('opacity',0.5)};var targets={state:{elem:doc.documentElement,attr:'data'},filter:{elem:doc.body,attr:'data'},opacity:{elem:doc.body,attr:'style'}};var paramsStates={elemTag:'button',elemText:'on',listName:'states',itemName:'state',target:targets.state,type:'button',list:statesList,canDisableAll:!0,attrs:{tabindex:1,}};var paramsFilters={elemTag:'button',elemText:'invert',listName:'filters',itemName:'filter',target:targets.filter,type:'button',list:filtersList,attrs:{tabindex:2,}};var paramsOpacity={itemName:'opacity',type:'number',target:targets.opacity,setAttr:'style',attrs:{min:0,max:1,step:0.1,tabindex:3,}};init();function init(){createContolsPanel();applyCurrentData();if(currents.state==='on'){applyCurrentStyles()}}
 //function createContolsPanel(){var targetElem=doc.documentElement;if(hasData(doc.body,'has-sticky-point')){var stickyPoint=doc.querySelector('.sticky-point');if(stickyPoint&&!localStorage['pg-released']){targetElem=stickyPoint}
 //currents.state='off'}
@@ -343,7 +342,7 @@ pageWidget(['index', 'thanks'])
 //dataName='data-'+dataName;elem.setAttribute(dataName,dataVal)}
 //function setClasses(elem,classes){if(!elem){return}
 //if(classes.length>0){classes.forEach(function(className){elem.classList.add(className)})}}}
-//window.onload=function(){pixelGlass()}
+
 
 
 //endRemoveIf(production)

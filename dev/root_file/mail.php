@@ -58,7 +58,7 @@ $mail->addAddress('email');
     } else {
       $msg .= 'Failed to move file to ' . $uploadfile;
     }
-  } 
+  }
 //}
 
 //Build mail body content
@@ -85,7 +85,7 @@ $mail->Body = "<table style='width: 100%;'>$message</table>";
 
 //$mail->send();
 if( $mail->send() ){
-  $answer = '1'; 
+  $answer = '1';
 }else{
   $answer = '0';
   echo 'Письмо не может быть отправлено. ';
@@ -95,4 +95,3 @@ echo json_encode(['Answer after submit' => $answer ]);
 
 // die( 'Answer after submit: ' . $answer );
 ?>
-

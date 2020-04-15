@@ -15,7 +15,7 @@ module.exports = function () {
 
     //parallax.js
     //https://github.com/wagerfield/parallax
-    //'node_modules/parallax-js/src/parallax.js',
+    // 'node_modules/parallax-js/dist/parallax.min.js',
 
     // dynamicHeight
     // example: dynamicHeight($('.you_class'));

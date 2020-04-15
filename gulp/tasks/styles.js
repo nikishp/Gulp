@@ -23,7 +23,7 @@ module.exports = function () {
       // forceMediaMerge: true
     })) 
 //    
-      .pipe($.gp.sourcemaps.write('map/'))
+      .pipe($.gp.sourcemaps.write())
       .pipe($.gulp.dest('build/css/'))
       .pipe($.browserSync.reload({
       stream: true
@@ -62,7 +62,7 @@ module.exports = function () {
       .pipe($.gulp.dest('build/css/'))
       .pipe($.browserSync.reload({
       stream: true
-    }));
+    })); 
   });
 
 

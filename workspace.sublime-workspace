@@ -552,9 +552,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-	],
 	"file_history":
 	[
 		"/dev/sass/mixin.sass",
@@ -701,12 +698,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"folders":
-	[
-		{
-			"path": "E:\\ospanel\\domains\\Gulp"
-		}
-	],
 	"groups":
 	[
 		{
@@ -747,15 +738,6 @@
 							"SL.69.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 12,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -914,9 +896,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -964,15 +943,6 @@
 							"SL.82.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 12,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": 15,
 							"bracket_highlighter.clone_locations":
@@ -1116,9 +1086,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -1165,15 +1132,6 @@
 							"SL.55.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 16,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -1347,9 +1305,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -1399,15 +1354,6 @@
 							"SL.71.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 401,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -1556,9 +1502,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
@@ -1617,15 +1560,6 @@
 							"SL.72.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 4,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -1769,9 +1703,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -1818,15 +1749,6 @@
 							"SL.73.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 8,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -1985,9 +1907,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -2037,15 +1956,6 @@
 							"SL.74.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 52,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -2189,9 +2099,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -2241,15 +2148,6 @@
 							"SL.75.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 7,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -2408,9 +2306,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -2458,15 +2353,6 @@
 							"SL.76.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 2,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -2625,9 +2511,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -2677,15 +2560,6 @@
 							"SL.77.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 54,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -2829,9 +2703,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -2884,15 +2755,6 @@
 							"SL.78.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 4,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -3051,9 +2913,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -3098,15 +2957,6 @@
 							"SL.79.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 8,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -3250,9 +3100,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -3300,15 +3147,6 @@
 							"SL.80.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 16,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -3452,9 +3290,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -3501,15 +3336,6 @@
 							"SL.81.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 69,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -3653,9 +3479,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".pug",
@@ -3699,15 +3522,6 @@
 							"SL.83.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 251,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -3881,9 +3695,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
@@ -3918,8 +3729,8 @@
 						"selection":
 						[
 							[
-								298,
-								298
+								64,
+								64
 							]
 						],
 						"settings":
@@ -4010,12 +3821,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										291,
+										292
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										63,
+										64
+									]
 								},
 								"unmatched":
 								{
@@ -4028,51 +3854,51 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"color_helper.box_height": 19,
 							"color_helper.color_scheme": "Packages/Theme - Gravity/One Dark Gravity.tmTheme",
@@ -4087,7 +3913,7 @@
 								"current_ext": ".js",
 								"current_syntax": "Babel/JavaScript (Babel)",
 								"enabled": false,
-								"last_updated": 1584886026.4
+								"last_updated": 1584891197.33
 							},
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -4124,15 +3950,6 @@
 							"SL.85.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 108,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -4306,9 +4123,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"current_ext": ".js",
@@ -4376,15 +4190,6 @@
 							"SL.86.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 74,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -4531,9 +4336,6 @@
 							"color_helper.no_auto": false,
 							"color_helper.popup_active": false,
 							"color_helper.popup_auto": true,
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -4621,15 +4423,6 @@
 							"SL.87.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 343,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -4781,27 +4574,6 @@
 							"color_helper.no_auto": false,
 							"color_helper.popup_active": false,
 							"color_helper.popup_auto": true,
-							"color_helper.preview_meta":
-							{
-								"329":
-								[
-									4726172350081997796,
-									4,
-									"hex_compressed",
-									-7478227984363567850,
-									1,
-									"1584890381.880526"
-								],
-								"354":
-								[
-									-8393563039955698497,
-									3,
-									"webcolors",
-									6420900897395693552,
-									2,
-									"1584890381.887522"
-								]
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -4886,15 +4658,6 @@
 							"SL.88.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 1,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -5041,9 +4804,6 @@
 							"color_helper.no_auto": false,
 							"color_helper.popup_active": false,
 							"color_helper.popup_auto": true,
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -5113,15 +4873,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 314,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -5268,9 +5019,6 @@
 								"#e5ac8e00",
 								"#ffffffb3@3"
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -5343,14 +5091,6 @@
 							"SL.90.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -5494,9 +5234,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -5572,15 +5309,6 @@
 							"SL.89.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 235,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -5726,18 +5454,6 @@
 								"#000000ff",
 								"#ff0000ff"
 							],
-							"color_helper.preview_meta":
-							{
-								"385":
-								[
-									4726112765913160510,
-									4,
-									"hex_compressed",
-									-7478227984363567850,
-									1,
-									"1584890387.883292"
-								]
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -5810,15 +5526,6 @@
 							"SL.91.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 2,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -5962,9 +5669,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -6038,15 +5742,6 @@
 							"SL.92.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 2,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -6192,9 +5887,6 @@
 							],
 							"color_helper.popup_active": false,
 							"color_helper.popup_auto": true,
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -6270,15 +5962,6 @@
 							"SL.93.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 69,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -6427,18 +6110,6 @@
 							],
 							"color_helper.popup_active": false,
 							"color_helper.popup_auto": true,
-							"color_helper.preview_meta":
-							{
-								"962":
-								[
-									4726112765913160510,
-									4,
-									"hex_compressed",
-									-7478227984363567850,
-									1,
-									"1584890392.893292"
-								]
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -6512,15 +6183,6 @@
 							"SL.94.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 2530,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -6679,9 +6341,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -6752,15 +6411,6 @@
 							"SL.95.region_keys":
 							[
 							],
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 74,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -6904,9 +6554,6 @@
 							"color_helper.file_palette":
 							[
 							],
-							"color_helper.preview_meta":
-							{
-							},
 							"color_helper.scan":
 							{
 								"allowed_colors":
@@ -7021,7 +6668,7 @@
 		"height": 154.0
 	},
 	"pinned_build_system": "",
-	"project": "",
+	"project": "project.sublime-project",
 	"replace":
 	{
 		"height": 60.0
@@ -7061,7 +6708,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":

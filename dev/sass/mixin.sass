@@ -170,13 +170,18 @@
   95%
     opacity: 1
     transform: rotateZ(60deg) translate(1em, -11em)
-  to
+  100%
     opacity: 0
     transform: rotateZ(60deg) translate(1em, -9em)
 
 
-
-
+=sliding($duration: 3, $distance: 20, $timeFunc: ease)
+  animation: #{"sliding" + $distance} infinite $timeFunc #{$duration + "s"}
+  @keyframes #{"sliding" + $distance}
+    0%
+      transform: translateY(0)
+    50%
+      transform: translateY(#{$distance + "px"})
 
 
 
