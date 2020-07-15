@@ -149,23 +149,23 @@ $(function () {
     // navPos = $('nav').offset().top;
     navPos = $('.header').outerHeight(true) / 2;
     // console.log("navPos", navPos);
-    navHeight = $('.header__top-line').outerHeight(true);
+    navHeight = $('.header').outerHeight(true);
     // console.log("navHeight", navHeight);
   };
   refreshVar();
 
-  $('<div class="header__top-line--clone"></div>').insertBefore('.header__top-line').css('height', navHeight).hide();
+  $('<div class="header--clone"></div>').insertBefore('.header').css('height', navHeight).hide();
 
   $(window).scroll(function () {
 
     winPos = $(window).scrollTop();
     // console.log("winPos", winPos);
     if (winPos >= navPos) {
-      $('.header__top-line').addClass('header__top-line--fixed');
-      $('.header__top-line--clone').show();
+      $('.header').addClass('header--fixed');
+      $('.header--clone').show();
     } else {
-      $('.header__top-line').removeClass('header__top-line--fixed');
-      $('.header__top-line--clone').hide();
+      $('.header').removeClass('header--fixed');
+      $('.header--clone').hide();
     }
 
   });
@@ -301,7 +301,7 @@ function pageWidget(pages) {
   var widgetStilization = $('<style>body{position:relative}.widget_wrap{position:fixed;top:0;left:-12px;z-index:9999;padding:10px 20px;background:#222;border-bottom-right-radius:10px;transition:all .3s ease;transform:translate(-100%,0)}.widget_wrap ul{max-width:220px;width:100%;display:flex;flex-wrap:wrap}.widget_wrap:after{content:" ";position:absolute;top:0;left:100%;width:24px;height:24px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAABGdBTUEAALGPC/xhBQAAAAxQTFRF////////AAAA////BQBkwgAAAAN0Uk5TxMMAjAd+zwAAACNJREFUCNdjqP///y/DfyBg+LVq1Xoo8W8/CkFYAmwA0Kg/AFcANT5fe7l4AAAAAElFTkSuQmCC) 50% 50% no-repeat #222;cursor:pointer}.widget_wrap:hover{left:0;transform:translate(0,0)}.widget_item{padding:0 0 10px}.widget_link{display:block;color:#fff;text-decoration:none;font-size:15px;width:100px}.widget_link:hover{color:#fff;text-decoration:underline}</style>');
   widgetStilization.prependTo(".widget_wrap")
 };
-pageWidget(['index', 'thanks'])
+pageWidget(['index', 'thanks', '404'])
 
 
 ////pixel-glass-js-master

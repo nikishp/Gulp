@@ -86,8 +86,8 @@
 // Custom hamburger
 .hamburger
   position: relative
-  width: 30px
-  height: 25px
+  width: 25px
+  height: 20px
   display: block
   font-size: 0
   cursor: pointer
@@ -97,10 +97,10 @@
   span,&::before,&::after
     position: absolute
     left: 0
-    height: 3px
+    height: 2px
     width: 100%
     opacity: 1
-    background: red
+    background: #fff
     border-radius: 5px
     transform: rotate(0deg)
     transition: 0.25s ease-in-out
@@ -110,7 +110,7 @@
   &::before,&::after
     content: ''
   &::before
-    top: calc(50% - 2px)
+    top: calc(50% - 1px)
     transform-origin: left center
   &::after
     // top: 75%
@@ -120,7 +120,7 @@
     span
       top: 10%
       left: 12%
-      width: 25px
+      width: 20px
       transform: rotate(45deg)
     &::before
       left: -100%
@@ -129,5 +129,5 @@
     &::after
       top: 80%
       left: 13%
-      width: 25px
+      width: 20px
       transform: rotate(-45deg)

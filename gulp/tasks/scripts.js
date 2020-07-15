@@ -73,7 +73,7 @@ module.exports = function () {
 
     //Swiper
     //http://idangero.us/swiper/
-    //'node_modules/swiper/dist/js/swiper.js',
+    //'node_modules/swiper/js/swiper.js',
 
     //bxSlider
     //'dev/libs/jquery.bxslider/jquery.bxslider.min.js',

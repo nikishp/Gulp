@@ -47,6 +47,7 @@
     font-style: $style;
     font-weight: $weight;
     src: $src;
+    font-display: swap;
   }
 }
 
@@ -105,3 +106,23 @@ left: 100%;
     border-color: $color transparent transparent transparent;
   }
 }
+
+
+/*==================================================*/
+/*==================== text shodow ====================*/
+/*==================================================*/
+@function textShadow($precision, $size, $color) {
+  $value: null;
+  $offset: 0;
+  $length: $size * (1 / $precision) - 1;
+
+  @for $i from 0 through $length {
+    $offset: $offset + $precision;
+    $shadow: $offset + px $offset + px $color;
+    $value: append($value, $shadow, comma);
+  }
+
+  @return $value;
+}
+
+//text-shadow: textShadow(0.25, 6, #E485F8)

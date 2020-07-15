@@ -75,6 +75,20 @@ foreach ( $_POST as $key => $value ) {
   }
 }
 
+// Code to display URL of current page.
+if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
+  $urlLink = "https://";
+else
+  $urlLink = "http://";
+// Append the host(domain name, ip) to the URL.
+$urlLink .= $_SERVER['HTTP_HOST']; // оставляет только корневой хост
+// Append the requested resource location to the URL
+//$urlLink .= $_SERVER['REQUEST_URI']; // кидает до файла отправки ".../mail.php"
+// Print the link
+//echo $urlLink;
+
+$message .= '<b>Адрес сайта </b> - <a href="' . $urlLink . '">' . $urlLink . '</a>';
+
 //Content
 $mail->isHTML(true); // Set email format to HTML
 $mail->Subject = $_POST["form_subject"];

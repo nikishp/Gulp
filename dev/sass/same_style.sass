@@ -117,7 +117,7 @@ table
 
 .btn
   position: relative
-  z-index: 3
+  z-index: 1
   display: inline-flex
   justify-content: center
   align-items: center
@@ -186,3 +186,62 @@ button[type='submit']
 
 [class*="--aic"]
   align-items: center
+
+
+
+
+.s-content
+  min-height: calc(100vh - 200px)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  padding: 50px 0
+  text-align: center
+  +bg
+  +max(991)
+    padding: 80px 0
+    min-height: 0
+
+
+.s-content__ico
+  margin-bottom: 50px
+  font-size: 0
+  svg
+    +size(150)
+    fill: red
+
+.s-content__404
+  text-shadow: 0 11px 21px rgba(red, 0.4)
+  color: red
+  font-size: 232px
+  font-weight: 700
+  line-height: 1
+  text-transform: uppercase
+  +max(991)
+    font-size: 162px
+  +max(576)
+    font-size: 140px
+
+.s-content__title
+  margin-bottom: 40px
+  font-size: 40px
+  font-weight: 700
+  line-height: 1.4
+  text-transform: uppercase
+  +max(991)
+    margin-bottom: 20px
+    font-size: 23px
+    font-weight: 700
+    line-height: 1.39
+.s-content__subtitle
+  margin: 40px 0
+  font-size: 20px
+  line-height: 1.3
+  +max(991)
+    margin-top: 20px
+    font-size: 17px
+
+.s-content__acton
+  margin-top: 50px
+  +max(991)
+    margin-top: 40px
