@@ -1,6 +1,6 @@
 <?php
 
-header('Content-type: application/json');
+// header('Content-type: application/json');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -105,7 +105,7 @@ if( $mail->send() ){
   echo 'Письмо не может быть отправлено. ';
   echo 'Ошибка: ' . $mail->ErrorInfo;
 }
-echo json_encode(['Answer after submit' => $answer ]);
+// echo json_encode(['Answer after submit' => $answer ]);
 
-// die( 'Answer after submit: ' . $answer );
+die( 'Answer after submit: ' . $answer );
 ?>

@@ -51,7 +51,7 @@ $(function () {
           url: "mail.php",
           data: formData,
           contentType: false,
-          dataType: "json",
+          // dataType: "json",
           processData: false,
           beforeSend: function () {
             $(form).find('.btn').attr("disabled", true);
