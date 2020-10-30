@@ -87,7 +87,7 @@ $urlLink .= $_SERVER['HTTP_HOST']; // оставляет только корне
 // Print the link
 //echo $urlLink;
 
-$message .= '<b>Адрес сайта </b> - <a href="' . $urlLink . '">' . $urlLink . '</a>';
+//$message .= '<b>Адрес сайта </b> - <a href="' . $urlLink . '">' . $urlLink . '</a>';
 
 //Content
 $mail->isHTML(true); // Set email format to HTML

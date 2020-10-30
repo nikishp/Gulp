@@ -20,6 +20,9 @@ $(function () {
     $(this).toggleClass('open');
   });
 
+
+
+
   var $form = $('.form');
 
   $form.on('click', function (event) {
@@ -33,7 +36,8 @@ $(function () {
 
   //	E-mail Ajax Send
   $form.each(function () {
-    //    var $this = $(this);
+    //let $this = $(this);
+    $(`<input type="hidden" value="${location.href}" name="Адрес страницы">`).prependTo($(this));
     $(this).validate({
 
       // rules: {

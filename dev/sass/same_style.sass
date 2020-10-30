@@ -187,8 +187,17 @@ button[type='submit']
 [class*="--aic"]
   align-items: center
 
+$count: 5
+@while $count <= 150
+  .mt-#{$count} 
+    margin-top: $count + px
+  $count: $count + 5
 
-
+$count1: 5
+@while $count1 <= 150
+  .mb-#{$count1} 
+    margin-bottom: $count1 + px
+  $count1: $count1 + 5
 
 .s-content
   min-height: calc(100vh - 200px)
@@ -211,6 +220,7 @@ button[type='submit']
     fill: red
 
 .s-content__404
+.s-content__ico-text
   text-shadow: 0 11px 21px rgba(red, 0.4)
   color: red
   font-size: 232px
